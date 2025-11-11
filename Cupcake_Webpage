@@ -1,19 +1,69 @@
+<!DOCTYPE html>
 <html>
+<head>
+    <title>🧁 Cupcake Matcher</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color:LavenderBlush; 
+            color: purple; 
+            text-align: center;
+            padding: 20px;
+            margin: 0;
+        }
 
-	<head>
-		<title> Cupcake Matcher </title>
-		
-	<head>
-	
-	<body>
-	---Cupcake Matcher---
-	<p style="font-size:15px">Click below and we'll give you a custom cupcake flavor you'll love</p>
-	<p style="font-size:20px">Choose a cake base:</p>
-	<button type="button">Basic</button>
-	<button type="button">Nutty</button>
-	<button type="button">Fruity</button>
-	<button type="button">Spiced/Savory</button>
-	<button type="button">Drink Based</button>
+        /*main header */
+        h1 {
+            font-size: 3em; 
+            color: PaleVioletRed; 
+            margin-bottom: 5px;
+        }
 
-	</body>
-<html>
+        /* paragraphs */
+        p {
+            margin: 10px auto;
+            max-width: 600px;
+        }
+
+        .tagline {
+            font-size: 1.2em; /*main description */
+            font-style: italic;
+            color: MediumVioletRed; 
+        }
+
+        .prompt {
+            font-size: 1.5em; 
+            font-weight: bold;
+            margin-top: 25px;
+            color:  DarkSlateBlue; 
+        }
+
+        /* Styling for the buttons */
+        button {
+            background-color: DarkSalmon; /* Light orange/cake color */
+            color: DarkMagenta; /* Deep purple text */
+            border: 2px solid #ffab40;
+            padding: 12px 25px;
+            margin: 8px;
+            border-radius: 25px; /* Rounded pill shape */
+            font-size: 1em;}
+        }
+    </style>
+</head>
+<body>
+    <h1>Cupcake Matcher </h1>
+    
+    <p class="tagline">Click below and we'll give you a custom cupcake flavor you'll love!</p>
+    
+    <hr> <p class="prompt">Choose a cake base:</p>
+    
+    <div>
+        <button type="button">Basic</button>
+        <button type="button">Nutty</button>
+        <button type="button">Fruity</button>
+        <button type="button">Spiced/Savory</button>
+        <button type="button">Drink Based</button>
+    </div>
+
+</body>
+</html>
