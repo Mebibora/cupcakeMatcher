@@ -1,0 +1,19 @@
+<html>
+
+	<head>
+		<title> Cupcake Matcher </title>
+		
+	<head>
+	
+	<body>
+	---Cupcake Matcher---
+	<p style="font-size:15px">Click below and we'll give you a custom cupcake flavor you'll love</p>
+	<p style="font-size:20px">Choose a cake base:</p>
+	<button type="button">Basic</button>
+	<button type="button">Nutty</button>
+	<button type="button">Fruity</button>
+	<button type="button">Spiced/Savory</button>
+	<button type="button">Drink Based</button>
+
+	</body>
+<html>
