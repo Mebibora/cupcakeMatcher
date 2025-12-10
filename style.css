@@ -1,0 +1,69 @@
+body {
+  background-color: #ffe6f2;
+  background-image: radial-gradient(#ffb7d2 15%, transparent 16%),
+                    radial-gradient(#ffb7d2 15%, transparent 16%);
+  background-size: 20px 20px;
+  background-position: 0 0, 10px 10px;
+  font-family: 'Quicksand', sans-serif;
+  color: #6a1b9a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 40px;
+  border-radius: 30px;
+  box-shadow: 0 10px 25px rgba(255, 105, 180, 0.3);
+  max-width: 600px;
+  width: 90%;
+  text-align: center;
+  border: 5px solid #fff0f5;
+}
+
+h1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 3.5em;
+  color: #ff69b4;
+  margin: 0;
+  text-shadow: 2px 2px 0px #ffe4e1;
+}
+
+.prompt {
+  font-size: 1.4em;
+  font-weight: 700;
+  margin-top: 25px;
+  color: #8e44ad;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.button-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+button {
+  background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 100%);
+  color: #fff;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 50px;
+  font-size: 1.1em;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(255, 105, 180, 0.4);
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  transform: translateY(-3px) scale(1.05);
+  background: linear-gradient(135deg, #ff758c 0%, #ff7eb3 100%);
+  box-shadow: 0 6px 20px rgba(255, 105, 180, 0.6);
+}

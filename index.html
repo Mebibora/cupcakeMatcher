@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>🧁 Cupcake Matcher</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="card">
+    <h1>🧁 Cupcake Matcher</h1>
+    <p class="tagline">Click below and we’ll bake up a custom flavor profile just for you!</p>
+
+    <hr>
+
+    <div class="selectors">
+      <div class="selector">
+        <p class="prompt">✨ Choose a cake base ✨</p>
+        <div class="button-group" id="base-group">
+          <!-- Buttons created by JS -->
+        </div>
+      </div>
+
+      <div class="selector">
+        <p class="prompt">🍥 Choose an icing</p>
+        <div class="button-group" id="icing-group">
+          <!-- Buttons created by JS -->
+        </div>
+      </div>
+
+      <div class="selector">
+        <p class="prompt">🍒 Choose a topping/accent</p>
+        <div class="button-group" id="topping-group">
+          <!-- Buttons created by JS -->
+        </div>
+      </div>
+    </div>
+
+    <div class="selection-summary" id="summary">
+      <p><strong>Your picks:</strong> <span id="summary-text">None yet — choose options above.</span></p>
+      <button id="match-btn" class="primary" disabled>Find my cupcakes</button>
+      <button id="reset-btn" class="secondary">Reset</button>
+    </div>
+
+    <hr>
+
+    <div id="results">
+      <!-- Results rendered by JS -->
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
